@@ -4,25 +4,32 @@ export default function ProjectList() {
             name: 'Project 1',
             description: 'This is a project',
             image: 'https://via.placeholder.com/150',
-            link: 'https://www.google.com'
+            githublink: 'https://www.google.com',
+            deployedlink: 'https://www.google.com'
+        },
+        {
+            name: 'Project 2',
+            description: 'This is a project',
+            image: 'https://via.placeholder.com/150',
+            githublink: 'https://www.google.com',
+            deployedlink: 'https://www.google.com'
         }
     ]
     return (
-        <section>
-            <h2>Projects</h2>
             <ul>
             {
                 projects.map((project, i) => {
+                    return (
                     <li key={i}>
-                        <a href={project.link}>
-                            <img src={project.image} alt={project.name} />
-                            <h3>{project.name}</h3>
-                            <p>{project.description}</p>
-                        </a>
+                        <h3>{project.name}</h3>
+                            <img src={project.image} alt={project.name} />                            
+                            <a href={project.githublink}>GitHub Link </a>
+                            <a href={project.deployedlink}>Deployed Link </a>
+                            <p>{project.description}</p>                     
                     </li>
+                    )
                 })
             }
             </ul>
-        </section>
-    )   
+    )  
 }
