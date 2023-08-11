@@ -6,6 +6,8 @@ import Nav from './components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
+import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 function App() {
   const [page, setPage] = useState();
@@ -26,31 +28,11 @@ function App() {
     };
   }, [page]);
 
-  // if (page === 'About') {
-  //   console.log('hello');
-  // //   setCurrentPage(<About />);
-  // };
-  
-
-  // if (page === 'Portfolio') {
-  //   console.log('hi');
-  //   setCurrentPage(<Portfolio />);
-  // };
-
-  // if (page === 'Contact') {
-  //   console.log('hey');
-  //   // setCurrentPage(<Contact />);
-  // };
-
-  // if (page === 'Resume') {
-  //   console.log('yo');
-  //   // setCurrentPage(<Resume />);
-  // };
-
   return (
     <>
       <Nav setpage = {setPage} />
-      {currentPage}      
+      {currentPage} 
+      <Footer />     
     </>
   )
 }
