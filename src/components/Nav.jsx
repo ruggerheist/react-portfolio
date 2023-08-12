@@ -7,7 +7,6 @@ export default function Nav({setpage}) {
                 <li onClick={() => setpage('Contact')}> Contact </li>
                 <li onClick={() => setpage('Resume')}> Resume </li>
             </ul>
-        </nav>
-        
+        </nav>        
     )
 }
