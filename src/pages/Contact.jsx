@@ -29,8 +29,8 @@ export default function Contact() {
                 <input type="text" class="form-control" placeholder="What's Your Name?"/>
             </div>
             <div class="form-group">
-                <label class="form-check-label" for="textarea" id="textarea">Check me out</label>
-                <textarea rows="4" maxLength={300} required class="form-control"/>                
+                <label class="form-check-label" for="textarea" id="textarea">I like messages</label>
+                <textarea rows="4" maxLength={300} required class="form-control" placeholder="What would you like to say?"/>                
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
