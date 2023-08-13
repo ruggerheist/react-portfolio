@@ -3,9 +3,9 @@ import profile from "../assets/profile.jpg";
 
 export default function About() {
     return (
-        <section>
-        <h2>About</h2>
-        <img src={profile} alt="profilePic" style={{border: "2px solid #E2BF36"}}/>
+        <section class="about-me-wrapper">
+        <h2>About Rick Heist</h2>
+        <img className="profile-pic" src={profile} alt="profilePic" style={{border: "2px solid #E2BF36"}}/>
         <p>
             I am a full stack web developer currently finishing my certificate at UPenn. I have experience with HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, MySQL, and Git.
             My background is in sales and project management and I currently run and manage a warehouse for a mid-sized roofing company. I have a bachelor's degree in professional studies from West Chester University, and I served in the United States Marine Corps with a combat deployment to Iraq. I am a problem solver, team player, and hard worker always looking forward to the next task. 

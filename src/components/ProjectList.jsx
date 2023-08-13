@@ -40,7 +40,7 @@ export default function ProjectList() {
             {
                 projects.map((project, i) => {
                     return (
-                    <div className="card col" key={i} style={{padding: "40px", margin: "20px", border: "4px solid #E2BF36", background: "#E9DCC9", font: "sans-serif"}} >
+                    <div className="card col project-wrapper" key={i} style={{padding: "40px", margin: "20px", border: "4px solid #E2BF36", background: "#E9DCC9", font: "sans-serif"}} >
                         <h3>{project.name}</h3>
                             <img src={project.image} alt={project.name} />                            
                             <a href={project.githublink}>GitHub Link </a>
