@@ -28,11 +28,13 @@ export default function Resume() {
                 </ul>
             <h3 className="proficiency-header">Back-end Proficiencies</h3>
                 <ul className="proficiencies">
-                    <li>APIs</li>
-                    <li>NodeJS</li>
-                    <li>Express</li>
-                    <li>MySQL, Sequelize</li>
-                    <li>MongoDB, Mongoose</li>
+                    <li>API's&nbsp;&nbsp;&nbsp;</li>
+                    <li>NodeJS&nbsp;&nbsp;&nbsp;</li>
+                    <li>Express&nbsp;&nbsp;&nbsp;</li>
+                    <li>MySQL&nbsp;&nbsp;&nbsp;</li>
+                    <li>Sequelize&nbsp;&nbsp;&nbsp;</li>
+                    <li>MongoDB&nbsp;&nbsp;&nbsp;</li>
+                    <li>Mongoose&nbsp;&nbsp;&nbsp;</li>
                     <li>GraphQL</li>
                 </ul>
         </article>
