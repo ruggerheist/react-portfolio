@@ -13,7 +13,7 @@ export default function ProjectList() {
         "An app that allows users to search Ticketmaster for concerts and add them to their own calendar.",
       image: musicale,
       githublink: "https://github.com/ruggerheist/musicale",
-      deployedlink: "https://www.google.com/",
+      deployedlink: "https://musicale-app-f8a5312a774d.herokuapp.com/",
     },
     {
       name: "Recipedia",
@@ -37,7 +37,7 @@ export default function ProjectList() {
         "A browser based note taking application that utilizes Express.js to save and retrieve note data from a JSON file.",
       image: noteTaker,
       githublink: "https://github.com/ruggerheist/express.js-note-taker",
-      deployedlink: "https://www.google.com/",
+      deployedlink: "https://express-js-note-take.herokuapp.com/",
     },
     {
         name: "Password Generator",
