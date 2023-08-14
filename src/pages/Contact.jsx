@@ -2,7 +2,8 @@
 
 export default function Contact() {
     return (
-        <form>
+        <form className="contact-wrapper">
+            <h2 className="contact-header">Contact Me</h2>
             <div className="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>

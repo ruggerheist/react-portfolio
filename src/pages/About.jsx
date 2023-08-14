@@ -4,7 +4,7 @@ import profile from "../assets/profile.jpg";
 export default function About() {
     return (
         <section class="about-me-wrapper">
-        <h2>About Rick Heist</h2>
+        <h2 className="about-header">About Rick Heist</h2>
         <img className="profile-pic" src={profile} alt="profilePic" style={{border: "2px solid #E2BF36"}}/>
         <p>
             I am a full stack web developer currently finishing my certificate at UPenn. I have experience with HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, MySQL, and Git.
