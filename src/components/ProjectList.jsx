@@ -4,9 +4,18 @@ import weatherDashboard from "../assets/weather-dashboard.png";
 import noteTaker from "../assets/note-taker.png";
 import passwordGenerator from "../assets/password-generator.png";
 import codingQuiz from "../assets/coding-quiz.png";
+import fitguide from "../assets/fitguide.png";
 
 export default function ProjectList() {
   const projects = [
+    {
+      name: "FitGuide",
+      description:
+        "A fitness app that uses Open API to provide macros, custom meal plans, and workout routines, based on user input.",
+      image: fitguide,
+      githublink: "https://github.com/jjsdunc88/health-wellness-planner",
+      deployedlink: "https://health-wellness-intro-planner-15375fd8b435.herokuapp.com/",
+    },
     {
       name: "Musicale",
       description:
