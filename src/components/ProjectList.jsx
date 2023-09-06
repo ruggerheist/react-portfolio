@@ -11,7 +11,7 @@ export default function ProjectList() {
     {
       name: "FitGuide",
       description:
-        "A fitness app that uses Open API to provide macros, custom meal plans, and workout routines, based on user input.",
+        "A fitness app that uses Open AI to provide macros, custom meal plans, and workout routines, based on user input.",
       image: fitguide,
       githublink: "https://github.com/jjsdunc88/health-wellness-planner",
       deployedlink: "https://health-wellness-intro-planner-15375fd8b435.herokuapp.com/",
