@@ -8,7 +8,7 @@
   - [Testing Instructions](#testing-instructions)
   - [Questions](#questions)
 ![Screenshot](https://i.imgur.com/BNSMC0o.png)
-[Link to Deployed Portfolio]()
+[Link to Deployed Portfolio](https://ricks-project-portfolio.netlify.app/)
 ## Installation Instructions
   - N/A
 ## Usage Information
